@@ -1,0 +1,38 @@
+clear all
+close all
+
+
+filename = '/Users/trainald/Desktop/Desktop miscellaneous/ODU Physics/Research/TMD large/QCD/testtemplatePDF/testtemplatePDF/mean_kT/meankT_UP.txt';
+data = importdata(filename);
+
+x             = data(:,1);
+kT2_pdf       = data(:,2);
+kT2_pdf_pert  = data(:,3);
+kT2_ff        = data(:,2);
+kT2_ff_pert   = data(:,4);
+
+colors = ["#EDB120","#77AC30","#0072BD","#7E2F8E"];
+
+fig1 = figure;
+set(fig1,'Position',[10    91   997   706]);
+
+hold on
+kT2_pdf_plt      = plot(x, kT2_pdf,"Color", colors(1),'LineStyle','-','LineWidth',2 );
+kT2_pdf_pert_plt = plot(x, kT2_pdf_pert,"Color", colors(2),'LineStyle','--','LineWidth',2 );
+%kT2_ff_plt       = plot(x, kT2_ff,"Color", colors(3),'LineStyle','-.','LineWidth',2 );
+%kT2_ff_pert_plt  = plot(x, kT2_ff_pert,"Color", colors(4),'LineStyle','--','LineWidth',2 );
+%set(gca, 'YScale','log')
+
+xlabel('$x_{bj}$','Interpreter','latex','FontSize',30)
+
+
+% lgd1 = legend([ W_slog, AsyLO_slog, corr_slog, FullAsy_slog, OPEW_slog],'W','Asy LO','Correction','Full Asy = Asy LO + Correction','OPE','NumColumns',1,'Interpreter','latex','Location', 'Best');
+% lgd1.FontSize = 30;
+% lgd1 = legend([ kT2_pdf_plt, kT2_pdf_pert_plt, kT2_ff_plt , kT2_ff_pert_plt],'$\langle k_T^2\rangle_{PDF}$','$\langle k_T^2\rangle_{PDF,P}$','$\langle k_T^2\rangle_{FF}$','$\langle k_T^2\rangle_{FF,P}$','NumColumns',1,'Interpreter','latex','Location', 'Best');
+% lgd1.FontSize = 30;
+lgd1 = legend([ kT2_pdf_plt, kT2_pdf_pert_plt],'$\langle k_T^2\rangle_{PDF}$','$\langle k_T^2\rangle_{PDF,P}$','NumColumns',1,'Interpreter','latex','Location', 'Best');
+lgd1.FontSize = 30;
+set(lgd1,'color','none');
+lgd1.EdgeColor = 'white';
+lgd1.Box = "off";
+lgd1.Position = [0.3848    0.6306    0.4804    0.2635];

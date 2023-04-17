@@ -1,0 +1,1181 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC3E58A292BD4BF00BAB273 /* TMDs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E589292BD4BF00BAB273 /* TMDs.cpp */; };
+		3FCD81A8293E3F1B0054B09F /* Cutoff_collinear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD81A7293E3F1B0054B09F /* Cutoff_collinear.cpp */; };
+		3FEB6CDD2903674900B73B3C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB6CDC2903674900B73B3C /* main.cpp */; };
+		3FEF4D7F298D9767008AA54C /* Q0bar_Evolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF4D7E298D9767008AA54C /* Q0bar_Evolution.cpp */; };
+		3FEF4D8B29A90304008AA54C /* test_bstar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF4D8A29A90304008AA54C /* test_bstar.cpp */; };
+		3FF2DA7B2910522400CF8025 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2DA7A2910522400CF8025 /* test.cpp */; };
+		3FF2DA862915449200CF8025 /* mean_kT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2DA852915449200CF8025 /* mean_kT.cpp */; };
+		3FF2DA9229194E3200CF8025 /* QCD_case.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2DA9129194E3200CF8025 /* QCD_case.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FC3E585292BD4BF00BAB273 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FCD81A3293E3F1B0054B09F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FEB6CD72903674900B73B3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FEF4D7A298D9767008AA54C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FEF4D8629A90304008AA54C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FF2DA762910522400CF8025 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FF2DA812915449200CF8025 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3FF2DA8D29194E3200CF8025 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FC3E587292BD4BF00BAB273 /* TMDs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TMDs; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC3E589292BD4BF00BAB273 /* TMDs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TMDs.cpp; sourceTree = "<group>"; };
+		3FCD81A5293E3F1B0054B09F /* Cutoff collinear */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cutoff collinear"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCD81A7293E3F1B0054B09F /* Cutoff_collinear.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cutoff_collinear.cpp; sourceTree = "<group>"; };
+		3FEB6CD92903674900B73B3C /* testtemplatePDF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testtemplatePDF; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEB6CDC2903674900B73B3C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3FEB6CE32903678B00B73B3C /* PDFBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFBase.h; sourceTree = "<group>"; };
+		3FEB6CE429036BD100B73B3C /* CollinearPDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollinearPDF.h; sourceTree = "<group>"; };
+		3FEB6CE529036BF700B73B3C /* Flavour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flavour.h; sourceTree = "<group>"; };
+		3FEB6CE62903734100B73B3C /* TMDPDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDPDF.h; sourceTree = "<group>"; };
+		3FEB6CEB2904AAF600B73B3C /* MellinConvolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MellinConvolution.h; sourceTree = "<group>"; };
+		3FEB6CEC2904AD3400B73B3C /* gsl_RAII_wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_RAII_wrapper.h; sourceTree = "<group>"; };
+		3FEB6CED2904AD7C00B73B3C /* QCDSplittingKernels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCDSplittingKernels.h; sourceTree = "<group>"; };
+		3FEB6CEE2905806100B73B3C /* alphaStrong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alphaStrong.h; sourceTree = "<group>"; };
+		3FEB6CEF2906D53700B73B3C /* FFBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFBase.h; sourceTree = "<group>"; };
+		3FEB6CF02906D59500B73B3C /* CollinearFF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollinearFF.h; sourceTree = "<group>"; };
+		3FEB6CF12906D71400B73B3C /* TMDFF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDFF.h; sourceTree = "<group>"; };
+		3FEB6CF229074FC600B73B3C /* WtermFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WtermFunctions.h; sourceTree = "<group>"; };
+		3FEB6CF3290B2BF800B73B3C /* OPEPDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPEPDF.h; sourceTree = "<group>"; };
+		3FEB6CF4290B397400B73B3C /* OPEFF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPEFF.h; sourceTree = "<group>"; };
+		3FEB6CF5290C2BB000B73B3C /* QCDParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCDParameters.h; sourceTree = "<group>"; };
+		3FEB6CF6290C323700B73B3C /* Evolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Evolution.h; sourceTree = "<group>"; };
+		3FEF4D7C298D9767008AA54C /* Q0bar_Evolution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Q0bar_Evolution; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEF4D7E298D9767008AA54C /* Q0bar_Evolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q0bar_Evolution.cpp; sourceTree = "<group>"; };
+		3FEF4D83298D9BFA008AA54C /* Q0barEvolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q0barEvolution.h; sourceTree = "<group>"; };
+		3FEF4D8829A90304008AA54C /* test_bstar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_bstar; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEF4D8A29A90304008AA54C /* test_bstar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_bstar.cpp; sourceTree = "<group>"; };
+		3FF2DA782910522400CF8025 /* test_LHAPDF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_LHAPDF; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF2DA7A2910522400CF8025 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		3FF2DA832915449200CF8025 /* mean_kT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mean_kT; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF2DA852915449200CF8025 /* mean_kT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mean_kT.cpp; sourceTree = "<group>"; };
+		3FF2DA8A2915B20F00CF8025 /* bstar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bstar.h; sourceTree = "<group>"; };
+		3FF2DA8F29194E3200CF8025 /* QCD_case */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QCD_case; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF2DA9129194E3200CF8025 /* QCD_case.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QCD_case.cpp; sourceTree = "<group>"; };
+		3FF2DA96291C002500CF8025 /* Hardfactor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hardfactor.h; sourceTree = "<group>"; };
+		3FF2DA972922EF9200CF8025 /* MassParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MassParameters.h; sourceTree = "<group>"; };
+		3FF2DA982923DD3100CF8025 /* YtermFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YtermFunctions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC3E584292BD4BF00BAB273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCD81A2293E3F1B0054B09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEB6CD62903674900B73B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF4D79298D9767008AA54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF4D8529A90304008AA54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF2DA752910522400CF8025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF2DA802915449200CF8025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF2DA8C29194E3200CF8025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC3E588292BD4BF00BAB273 /* TMDs */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3E589292BD4BF00BAB273 /* TMDs.cpp */,
+			);
+			path = TMDs;
+			sourceTree = "<group>";
+		};
+		3FCD81A6293E3F1B0054B09F /* Cutoff collinear */ = {
+			isa = PBXGroup;
+			children = (
+				3FCD81A7293E3F1B0054B09F /* Cutoff_collinear.cpp */,
+			);
+			path = "Cutoff collinear";
+			sourceTree = "<group>";
+		};
+		3FEB6CD02903674900B73B3C = {
+			isa = PBXGroup;
+			children = (
+				3FEB6CDB2903674900B73B3C /* testtemplatePDF */,
+				3FEB6CDA2903674900B73B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEB6CDA2903674900B73B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB6CD92903674900B73B3C /* testtemplatePDF */,
+				3FF2DA782910522400CF8025 /* test_LHAPDF */,
+				3FF2DA832915449200CF8025 /* mean_kT */,
+				3FF2DA8F29194E3200CF8025 /* QCD_case */,
+				3FC3E587292BD4BF00BAB273 /* TMDs */,
+				3FCD81A5293E3F1B0054B09F /* Cutoff collinear */,
+				3FEF4D7C298D9767008AA54C /* Q0bar_Evolution */,
+				3FEF4D8829A90304008AA54C /* test_bstar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEB6CDB2903674900B73B3C /* testtemplatePDF */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB6CDC2903674900B73B3C /* main.cpp */,
+				3FEB6CE32903678B00B73B3C /* PDFBase.h */,
+				3FF2DA96291C002500CF8025 /* Hardfactor.h */,
+				3FEB6CEF2906D53700B73B3C /* FFBase.h */,
+				3FEB6CE429036BD100B73B3C /* CollinearPDF.h */,
+				3FEB6CF02906D59500B73B3C /* CollinearFF.h */,
+				3FEB6CE62903734100B73B3C /* TMDPDF.h */,
+				3FEB6CF12906D71400B73B3C /* TMDFF.h */,
+				3FEB6CF3290B2BF800B73B3C /* OPEPDF.h */,
+				3FEB6CF4290B397400B73B3C /* OPEFF.h */,
+				3FEB6CF229074FC600B73B3C /* WtermFunctions.h */,
+				3FF2DA982923DD3100CF8025 /* YtermFunctions.h */,
+				3FEB6CF6290C323700B73B3C /* Evolution.h */,
+				3FF2DA8A2915B20F00CF8025 /* bstar.h */,
+				3FEB6CE529036BF700B73B3C /* Flavour.h */,
+				3FEB6CEE2905806100B73B3C /* alphaStrong.h */,
+				3FEB6CED2904AD7C00B73B3C /* QCDSplittingKernels.h */,
+				3FEB6CF5290C2BB000B73B3C /* QCDParameters.h */,
+				3FEF4D83298D9BFA008AA54C /* Q0barEvolution.h */,
+				3FF2DA972922EF9200CF8025 /* MassParameters.h */,
+				3FEB6CEB2904AAF600B73B3C /* MellinConvolution.h */,
+				3FEB6CEC2904AD3400B73B3C /* gsl_RAII_wrapper.h */,
+				3FEF4D8929A90304008AA54C /* test_bstar */,
+				3FEF4D7D298D9767008AA54C /* Q0bar_Evolution */,
+				3FCD81A6293E3F1B0054B09F /* Cutoff collinear */,
+				3FC3E588292BD4BF00BAB273 /* TMDs */,
+				3FF2DA9029194E3200CF8025 /* QCD_case */,
+				3FF2DA792910522400CF8025 /* test_LHAPDF */,
+				3FF2DA842915449200CF8025 /* mean_kT */,
+			);
+			path = testtemplatePDF;
+			sourceTree = "<group>";
+		};
+		3FEF4D7D298D9767008AA54C /* Q0bar_Evolution */ = {
+			isa = PBXGroup;
+			children = (
+				3FEF4D7E298D9767008AA54C /* Q0bar_Evolution.cpp */,
+			);
+			path = Q0bar_Evolution;
+			sourceTree = "<group>";
+		};
+		3FEF4D8929A90304008AA54C /* test_bstar */ = {
+			isa = PBXGroup;
+			children = (
+				3FEF4D8A29A90304008AA54C /* test_bstar.cpp */,
+			);
+			path = test_bstar;
+			sourceTree = "<group>";
+		};
+		3FF2DA792910522400CF8025 /* test_LHAPDF */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2DA7A2910522400CF8025 /* test.cpp */,
+			);
+			path = test_LHAPDF;
+			sourceTree = "<group>";
+		};
+		3FF2DA842915449200CF8025 /* mean_kT */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2DA852915449200CF8025 /* mean_kT.cpp */,
+			);
+			path = mean_kT;
+			sourceTree = "<group>";
+		};
+		3FF2DA9029194E3200CF8025 /* QCD_case */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2DA9129194E3200CF8025 /* QCD_case.cpp */,
+			);
+			path = QCD_case;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC3E586292BD4BF00BAB273 /* TMDs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC3E58D292BD4BF00BAB273 /* Build configuration list for PBXNativeTarget "TMDs" */;
+			buildPhases = (
+				3FC3E583292BD4BF00BAB273 /* Sources */,
+				3FC3E584292BD4BF00BAB273 /* Frameworks */,
+				3FC3E585292BD4BF00BAB273 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMDs;
+			productName = TMDs;
+			productReference = 3FC3E587292BD4BF00BAB273 /* TMDs */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FCD81A4293E3F1B0054B09F /* Cutoff collinear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCD81A9293E3F1B0054B09F /* Build configuration list for PBXNativeTarget "Cutoff collinear" */;
+			buildPhases = (
+				3FCD81A1293E3F1B0054B09F /* Sources */,
+				3FCD81A2293E3F1B0054B09F /* Frameworks */,
+				3FCD81A3293E3F1B0054B09F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cutoff collinear";
+			productName = "Cutoff collinear";
+			productReference = 3FCD81A5293E3F1B0054B09F /* Cutoff collinear */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FEB6CD82903674900B73B3C /* testtemplatePDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEB6CE02903674900B73B3C /* Build configuration list for PBXNativeTarget "testtemplatePDF" */;
+			buildPhases = (
+				3FEB6CD52903674900B73B3C /* Sources */,
+				3FEB6CD62903674900B73B3C /* Frameworks */,
+				3FEB6CD72903674900B73B3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testtemplatePDF;
+			productName = testtemplatePDF;
+			productReference = 3FEB6CD92903674900B73B3C /* testtemplatePDF */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FEF4D7B298D9767008AA54C /* Q0bar_Evolution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEF4D82298D9767008AA54C /* Build configuration list for PBXNativeTarget "Q0bar_Evolution" */;
+			buildPhases = (
+				3FEF4D78298D9767008AA54C /* Sources */,
+				3FEF4D79298D9767008AA54C /* Frameworks */,
+				3FEF4D7A298D9767008AA54C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Q0bar_Evolution;
+			productName = Q0bar_Evolution;
+			productReference = 3FEF4D7C298D9767008AA54C /* Q0bar_Evolution */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FEF4D8729A90304008AA54C /* test_bstar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEF4D8E29A90304008AA54C /* Build configuration list for PBXNativeTarget "test_bstar" */;
+			buildPhases = (
+				3FEF4D8429A90304008AA54C /* Sources */,
+				3FEF4D8529A90304008AA54C /* Frameworks */,
+				3FEF4D8629A90304008AA54C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_bstar;
+			productName = test_bstar;
+			productReference = 3FEF4D8829A90304008AA54C /* test_bstar */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FF2DA772910522400CF8025 /* test_LHAPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF2DA7C2910522400CF8025 /* Build configuration list for PBXNativeTarget "test_LHAPDF" */;
+			buildPhases = (
+				3FF2DA742910522400CF8025 /* Sources */,
+				3FF2DA752910522400CF8025 /* Frameworks */,
+				3FF2DA762910522400CF8025 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_LHAPDF;
+			productName = test_LHAPDF;
+			productReference = 3FF2DA782910522400CF8025 /* test_LHAPDF */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FF2DA822915449200CF8025 /* mean_kT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF2DA872915449200CF8025 /* Build configuration list for PBXNativeTarget "mean_kT" */;
+			buildPhases = (
+				3FF2DA7F2915449200CF8025 /* Sources */,
+				3FF2DA802915449200CF8025 /* Frameworks */,
+				3FF2DA812915449200CF8025 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mean_kT;
+			productName = mean_kT;
+			productReference = 3FF2DA832915449200CF8025 /* mean_kT */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FF2DA8E29194E3200CF8025 /* QCD_case */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF2DA9329194E3200CF8025 /* Build configuration list for PBXNativeTarget "QCD_case" */;
+			buildPhases = (
+				3FF2DA8B29194E3200CF8025 /* Sources */,
+				3FF2DA8C29194E3200CF8025 /* Frameworks */,
+				3FF2DA8D29194E3200CF8025 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCD_case;
+			productName = QCD_case;
+			productReference = 3FF2DA8F29194E3200CF8025 /* QCD_case */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEB6CD12903674900B73B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3FC3E586292BD4BF00BAB273 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FCD81A4293E3F1B0054B09F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FEB6CD82903674900B73B3C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FEF4D7B298D9767008AA54C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3FEF4D8729A90304008AA54C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3FF2DA772910522400CF8025 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FF2DA822915449200CF8025 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FF2DA8E29194E3200CF8025 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FEB6CD42903674900B73B3C /* Build configuration list for PBXProject "testtemplatePDF" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEB6CD02903674900B73B3C;
+			productRefGroup = 3FEB6CDA2903674900B73B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEB6CD82903674900B73B3C /* testtemplatePDF */,
+				3FF2DA772910522400CF8025 /* test_LHAPDF */,
+				3FF2DA822915449200CF8025 /* mean_kT */,
+				3FF2DA8E29194E3200CF8025 /* QCD_case */,
+				3FC3E586292BD4BF00BAB273 /* TMDs */,
+				3FCD81A4293E3F1B0054B09F /* Cutoff collinear */,
+				3FEF4D7B298D9767008AA54C /* Q0bar_Evolution */,
+				3FEF4D8729A90304008AA54C /* test_bstar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC3E583292BD4BF00BAB273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC3E58A292BD4BF00BAB273 /* TMDs.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCD81A1293E3F1B0054B09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCD81A8293E3F1B0054B09F /* Cutoff_collinear.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEB6CD52903674900B73B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEB6CDD2903674900B73B3C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF4D78298D9767008AA54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEF4D7F298D9767008AA54C /* Q0bar_Evolution.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF4D8429A90304008AA54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEF4D8B29A90304008AA54C /* test_bstar.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF2DA742910522400CF8025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF2DA7B2910522400CF8025 /* test.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF2DA7F2915449200CF8025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF2DA862915449200CF8025 /* mean_kT.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF2DA8B29194E3200CF8025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF2DA9229194E3200CF8025 /* QCD_case.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FC3E58B292BD4BF00BAB273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FC3E58C292BD4BF00BAB273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FCD81AA293E3F1B0054B09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FCD81AB293E3F1B0054B09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FEB6CDE2903674900B73B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3FEB6CDF2903674900B73B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3FEB6CE12903674900B73B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FEB6CE22903674900B73B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FEF4D80298D9767008AA54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FEF4D81298D9767008AA54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FEF4D8C29A90304008AA54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FEF4D8D29A90304008AA54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FF2DA7D2910522400CF8025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FF2DA7E2910522400CF8025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FF2DA882915449200CF8025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FF2DA892915449200CF8025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FF2DA9429194E3200CF8025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FF2DA9529194E3200CF8025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/include,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/gsl/2.7.1/lib,
+					/opt/homebrew/Cellar/lhapdf/6.5.3/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L/opt/homebrew/Cellar/gsl/2.7.1",
+					"-L/opt/homebrew/Cellar/lhapdf/6.5.3/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-Qunused-arguments",
+					"$(inherited)",
+					"-lLHAPDF",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC3E58D292BD4BF00BAB273 /* Build configuration list for PBXNativeTarget "TMDs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC3E58B292BD4BF00BAB273 /* Debug */,
+				3FC3E58C292BD4BF00BAB273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCD81A9293E3F1B0054B09F /* Build configuration list for PBXNativeTarget "Cutoff collinear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCD81AA293E3F1B0054B09F /* Debug */,
+				3FCD81AB293E3F1B0054B09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEB6CD42903674900B73B3C /* Build configuration list for PBXProject "testtemplatePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB6CDE2903674900B73B3C /* Debug */,
+				3FEB6CDF2903674900B73B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEB6CE02903674900B73B3C /* Build configuration list for PBXNativeTarget "testtemplatePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB6CE12903674900B73B3C /* Debug */,
+				3FEB6CE22903674900B73B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEF4D82298D9767008AA54C /* Build configuration list for PBXNativeTarget "Q0bar_Evolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEF4D80298D9767008AA54C /* Debug */,
+				3FEF4D81298D9767008AA54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEF4D8E29A90304008AA54C /* Build configuration list for PBXNativeTarget "test_bstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEF4D8C29A90304008AA54C /* Debug */,
+				3FEF4D8D29A90304008AA54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF2DA7C2910522400CF8025 /* Build configuration list for PBXNativeTarget "test_LHAPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF2DA7D2910522400CF8025 /* Debug */,
+				3FF2DA7E2910522400CF8025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF2DA872915449200CF8025 /* Build configuration list for PBXNativeTarget "mean_kT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF2DA882915449200CF8025 /* Debug */,
+				3FF2DA892915449200CF8025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF2DA9329194E3200CF8025 /* Build configuration list for PBXNativeTarget "QCD_case" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF2DA9429194E3200CF8025 /* Debug */,
+				3FF2DA9529194E3200CF8025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEB6CD12903674900B73B3C /* Project object */;
+}
